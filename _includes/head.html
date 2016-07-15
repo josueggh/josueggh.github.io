@@ -16,7 +16,7 @@
   {% if page.googlefonts %}{% for font in page.googlefonts %}<link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}"/>{% endfor %}{% endif %}
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:type" content="website" />
-  {% if page.id %}<meta property="og:url" content="{{ site.url }}{{ page.url }}/" />{% else %}<meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />{% endif %}
+  {% if page.id %}<meta property="og:url" content="{{ site.url }}{{ page.url }}" />{% else %}<meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />{% endif %}
   {% if page.fb-img %}<meta property="og:image" content="{{ page.fb-img }}" />{% elsif site.avatar %}<meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />{% else %}<meta property="og:image" content="" />{% endif %}
   {% if page.subtitle %}<meta name="og:description" content="{{ page.subtitle }}">{% endif %}
 
