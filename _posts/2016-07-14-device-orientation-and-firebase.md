@@ -3,7 +3,7 @@ layout: post
 title: Device Orientation and Firebase
 subtitle: Using the Device Orientation and Firebase I built an interactive web between your mobile and a monitor of the devices connected  
 categories: [chrome, javascript, firebase, post]
-fb-img: http://josueggh.com//img/post/deviceorientation.jpg
+fb-img: http://josueggh.com/img/post/emulator.gif
 ---
 
 As web developer after see the interactive activities before the start of the previous Google I/O as 
