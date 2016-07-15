@@ -18,4 +18,6 @@
   <meta property="og:type" content="website" />
   {% if page.id %}<meta property="og:url" content="{{ site.url }}{{ page.url }}/" />{% else %}<meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />{% endif %}
   {% if page.fb-img %}<meta property="og:image" content="{{ page.fb-img }}" />{% elsif site.avatar %}<meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />{% else %}<meta property="og:image" content="" />{% endif %}
+  {% if page.subtitle %}<meta name="og:description" content="{{ page.subtitle }}">{% endif %}
+
 </head>
