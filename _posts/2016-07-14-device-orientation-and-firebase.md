@@ -9,7 +9,7 @@ fb-img: http://josueggh.com/img/post/emulator.gif
 As web developer after see the interactive activities before the start of the previous Google I/O as 
 [Paper Planes](https://paperplanes.withgoogle.com/){:target="_blank"} where the user using Google Chrome in their 
 own smart phone could interact with the other assistants in a huge screen, all this by only changing the orientation and position
- of the phone, so born in my the curiosity to create a project that involves some of this characteristics.
+ of the phone, so born in me the curiosity to create a project that involves some of this characteristics.
  
  The idea of the project is simple, changing the orientation of the phone in any of their axis will change the 
  background of a webpage and all the devices will be capable to be displayed into one screen with their current color.
