@@ -83,7 +83,7 @@ identify each user and also we're going to detect the *disconnect* status to del
 <script src="https://gist.github.com/josueggh/930355859b85b63eb6afef57aeadfca1.js"></script>
 
 You can look the final result of the application in [https://devicemotion.firebaseapp.com/](https://devicemotion.firebaseapp.com/){:target="_blank"},
-I strongly recommend you try it on your **smart phone**.
+you can find you in the next link**smart phone**.
 
 ### 4.- Creating our monitor system.
 
@@ -98,6 +98,6 @@ For that we're going to use the change state of Firebase to create, destroy and 
 
 <script src="https://gist.github.com/josueggh/10d324a219da6db6b9fbd5ee796537a8.js"></script>
 
-If you're connected in the application, you can find you in the next link [https://devicemotion.firebaseapp.com/monitor/](https://devicemotion.firebaseapp.com/monitor/){:target="_blank"}
+If you're connected in the application, you can find your device in the next link [https://devicemotion.firebaseapp.com/monitor/](https://devicemotion.firebaseapp.com/monitor/){:target="_blank"}
 the full code is available via Github in the next repository: [https://github.com/josueggh/deviceorientation](https://github.com/josueggh/deviceorientation){:target="_blank"}
 , all the feedback is welcome.
