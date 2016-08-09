@@ -9,7 +9,7 @@ fb-img: http://josueggh.com/img/post/emulator.gif
 As web developer after see the interactive activities before the start of the previous Google I/O as 
 [Paper Planes](https://paperplanes.withgoogle.com/){:target="_blank"} where the user using Google Chrome in their 
 own smart phone could interact with the other assistants in a huge screen, all this by only changing the orientation and position
- of the phone, so born in my the curiosity to create a project that involves some of this characteristics.
+ of the phone, so born in me the curiosity to create a project that involves some of this characteristics.
  
  The idea of the project is simple, changing the orientation of the phone in any of their axis will change the 
  background of a webpage and all the devices will be capable to be displayed into one screen with their current color.
@@ -83,7 +83,7 @@ identify each user and also we're going to detect the *disconnect* status to del
 <script src="https://gist.github.com/josueggh/930355859b85b63eb6afef57aeadfca1.js"></script>
 
 You can look the final result of the application in [https://devicemotion.firebaseapp.com/](https://devicemotion.firebaseapp.com/){:target="_blank"},
-I strongly recommend you try it on your **smart phone**.
+you can find you in the next link**smart phone**.
 
 ### 4.- Creating our monitor system.
 
@@ -98,6 +98,6 @@ For that we're going to use the change state of Firebase to create, destroy and 
 
 <script src="https://gist.github.com/josueggh/10d324a219da6db6b9fbd5ee796537a8.js"></script>
 
-If you're connected in the application, you can find you in the next link [https://devicemotion.firebaseapp.com/monitor/](https://devicemotion.firebaseapp.com/monitor/){:target="_blank"}
+If you're connected in the application, you can find your device in the next link [https://devicemotion.firebaseapp.com/monitor/](https://devicemotion.firebaseapp.com/monitor/){:target="_blank"}
 the full code is available via Github in the next repository: [https://github.com/josueggh/deviceorientation](https://github.com/josueggh/deviceorientation){:target="_blank"}
 , all the feedback is welcome.
